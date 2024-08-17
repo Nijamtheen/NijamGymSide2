@@ -1,0 +1,844 @@
+<!-- <?php include "includes/header.php";
+include "includes/menu.php";?> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Transform your body and health at our state-of-the-art gym. Discover fitness programs, expert training, and nutrition guidance for a healthier you.">
+    <meta name="keywords" content="gym, fitness, health, workouts, personal training, nutrition, wellness">
+         <meta name="robots" content="index, follow">
+        <meta name="author" content="ABOSS">
+        <meta name="publisher" content="ABOSS">
+    <title> Fitness Programs, Training, and Nutrition |Core Strength</title>
+<!-- title logo image -->
+    <link rel="icon" href="assets/images/service-icon-1.webp" type="image/x-icon">
+    <script src="./assets/tailwind/tailwind.js"></script>
+    <!--bootsrap icon-->
+    <link rel="preload" href="./assets/bootstrapicon/bootstrap-icons.min.css" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="stylesheet" href="./assets/bootstrapicon/bootstrap-icons.min.css">
+    <!--swiper-->
+    <link rel="stylesheet" href="./assets/swiper/swiper.css">
+    <!--css-->
+    <link rel="stylesheet" href="./assets/fonts/style.css">
+</head>
+
+<body class="font-['Poppins'] text-[#6b6b6b] font-[400]">
+<!-- Navbar -->
+	<header class="bg-transparent  text-white w-full z-10 p-5 border-b-[0.2px] border-[rgba(255,255,255,0.2)] fixed">
+		<div class="container mx-auto">
+			<div class="flex justify-center items-center w-full">
+				<nav class="flex justify-between items-center w-full">
+					<div class="text-xl md:text-3xl uppercase font-semibold">
+						Core Strength
+					</div>
+					<ul class="lg:flex lg:justify-center lg:items-center text-center space-x-10 hidden transition-all ease-in-out duration-500">
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#home" title="link">Home</a></li>
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#about" title="link">About</a></li>
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#classes" title="link">Classes</a></li>
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#trainers" title="link">Trainers</a></li>
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#schedules" title="link">Schedules</a></li>
+						<li class="duration-500 text-base font-medium "><a class="five relative nav-item" href="#contact" title="link">Contact</a></li>
+					</ul>
+								  <!--mobile menu-->
+				<div class="lg:hidden flex items-center z-[10]">
+					<button class="outline-none mobile-menu-button" aria-label="menu">
+						<i class="bi bi-list text-btncolor text-4xl font-bold" id="menu-icon"></i>
+					</button>
+				</div>
+				</nav>
+				<div class="lg:hidden mobile-menu">
+						<ul class="flex justify-center items-start text-start gap-5 flex-col transition-all ease-in-out duration-500 w-full h-screen p-10">
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#home" title="link">Home</a></li>
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#about" title="link">About</a></li>
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#classes" title="link">Classes</a></li>
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#trainers" title="link">Trainers</a></li>
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#schedules" title="link">Schedules</a></li>
+						<li class="duration-500 text-base font-medium "><a class="nav-item" href="#contact" title="link">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- hero section -->
+<section class="bg-banner1 bg-cover bg-center h-screen w-full" id="home">
+	<div class="container mx-auto">
+		<div class="flex justify-center flex-col items-start w-full h-screen">
+			<div class="text-[14px] text-[#f15d44] font-[600] tracking-[2px] pb-3 md:pb-6">FITNESS ELEMENTS</div>
+			<div class="text-3xl md:text-[72px] text-white font-[600] pb-3 md:pb-6 uppercase">Core Strength</div>
+			<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br> eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			<div class="pt-3 md:pt-5">
+				<button type="button" class="w-[150px] p-3 bg-gradient-to-r from-[#eb3c5a]  to-[#f67831]  text-white text-center"><a href="javascript:;" title="btn">Read More</a></button>
+			</div>
+		</div>
+	</div>
+</section>
+<!--about-->
+<section id="about">
+	<div class="container mx-auto py-[50px] md:py-[100px]">
+		<div class="flex justify-between flex-wrap items-center w-full gap-[20px] md:gap-[30px]">
+			<div class="w-full lg:w-[calc(50%_-_20px)]">
+				<div class="bg-banner2 bg-cover bg-center w-full h-[250px] md:h-[400px] ">
+					<div class="flex justify-center items-center h-[250px] md:h-[400px]">
+						<div class="w-[60px] h-[60px] flex justify-center items-center rounded-full border-[2px] border-[#f15d44] ">
+							<a href="javascript:;" title="play"><i class="text-3xl pl-1 text-[#f15d44] bi bi-play-fill"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-full lg:w-[calc(50%_-_20px)]">
+				<div class="text-[#111111] text-2xl md:text-[40px] pb-[15px] md:pb-[30px] font-[700]">STORY ABOUT US</div>
+				<p class="text-[16px] leading-[26px]">Lorem ipsum proin gravida nibh vel velit auctor aliquet. Aenean pretium sollicitudin, nascetur auci elit consequat ipsutissem niuis sed odio sit amet nibh vulputate cursus a amet.</p>
+				<p class="text-[16px] leading-[26px] pt-3 md:pt-5">Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero sit amet. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, gravida quam semper libero sit amet.</p>
+					<div class="pt-5">
+				<button type="button" class="w-[150px] p-3 bg-gradient-to-r from-[#eb3c5a]  to-[#f67831]  text-white text-center"><a href="javascript:;" title="btn">Read More</a></button>
+			</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class=" overflow-hidden" >
+	<div class="w-full justify-center items-center flex flex-wrap">
+		<div class="w-full lg:w-[50%]">
+			<div class="bg-banner3 bg-cover bg-center w-full h-[250px] md:h-[400px] lg:h-[600px]"></div>
+		</div>
+		<div class="w-full lg:w-[50%] ">
+			<div class="flex justify-center flex-wrap items-center w-full">
+				<div class="bg-[#1E1E1E] h-full lg:h-[600px] w-full md:w-[50%] flex gap-[20px] md:gap-[50px] xl:gap-[100px] flex-col justify-center items-start px-[20px] lg:py-0 md:py-[40px] py-[20px] md:px-[50px] lg:px-[20px] xl:px-[70px] ">
+				 <div class="flex justify-center items-start  flex-col w-full">
+				 	<div class="bg-banner4 bg-contain bg-no-repeat bg-center w-[60px] h-[60px]"></div>
+				 	<div class="text-[22px] font-[600] text-white pt-3 md:pt-5">Strategies</div>
+				 	<p class="text-[#bdbdbd] text-[16px] pt-3 md:pt-5">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
+				 </div>	
+				 <div class="flex justify-center items-start  flex-col w-full">
+				 	<div class="bg-banner5 bg-contain bg-no-repeat bg-center w-[60px] h-[60px]"></div>
+				 	<div class="text-[22px] font-[600] text-white pt-3 md:pt-5">Workout</div>
+				 	<p class="text-[#bdbdbd] text-[16px] pt-3 md:pt-5">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
+				 </div>	
+				</div>
+				<div class="bg-[#141414] h-full lg:h-[600px] w-full md:w-[50%] flex gap-[20px] md:gap-[50px] xl:gap-[100px] flex-col justify-center items-start md:py-[40px] py-[20px] lg:py-0 px-[20px] md:px-[50px] lg:px-[20px] xl:px-[70px] ">
+				 <div class="flex justify-center items-start  flex-col w-full">
+				 	<div class="bg-banner6 bg-contain bg-no-repeat bg-center w-[60px] h-[60px]"></div>
+				 	<div class="text-[22px] font-[600] text-white pt-3 md:pt-5">Yoga</div>
+				 	<p class="text-[#bdbdbd] text-[16px] pt-3 md:pt-5">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
+				 </div>	
+				 <div class="flex justify-center items-start  flex-col w-full">
+				 	<div class="bg-banner7 bg-contain bg-no-repeat bg-center w-[60px] h-[60px]"></div>
+				 	<div class="text-[22px] font-[600] text-white pt-3 md:pt-5">Weight Loss</div>
+				 	<p class="text-[#bdbdbd] text-[16px] pt-3 md:pt-5">Aenean massa. Cum sociis Theme et natoque penatibus et magnis dis part urient montes.</p>
+				 </div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--classes-->
+<section class="" id="classes">
+	<div class="container mx-auto py-[50px] md:py-[100px]">
+		<div class="text-[#111111] font-[600] text-center text-2xl md:text-[40px]">
+			UNLIMITED CLASSES
+		</div>
+		<div class="pt-[25px] md:pt-[50px]">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[20px] md:gap-[30px]">
+							<div class="bg-banner1 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Personal Training</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Benjamin</span></div>
+								</div>
+							</div>
+							<div class="bg-banner2 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Running</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Henry</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner8 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Yoga</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Jayden</span></div>
+								</div>
+							</div>
+							<div class="bg-banner9 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Weight Loss</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Wick</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner10 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Abs Workout</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Samuel</span></div>
+								</div>
+							</div>
+							<div class="bg-banner11 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Fat Loss</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">James</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner12 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Leg Workout</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">David</span></div>
+								</div>
+							</div>
+							<div class="bg-banner13 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Cardio Training</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Benjamin</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner1 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Personal Training</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Benjamin</span></div>
+								</div>
+							</div>
+							<div class="bg-banner2 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Running</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Henry</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner8 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Yoga</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Jayden</span></div>
+								</div>
+							</div>
+							<div class="bg-banner9 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Weight Loss</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Wick</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner10 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Abs Workout</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Samuel</span></div>
+								</div>
+							</div>
+							<div class="bg-banner11 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Fat Loss</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">James</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col gap-[30px]">
+							<div class="bg-banner12 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Leg Workout</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">David</span></div>
+								</div>
+							</div>
+							<div class="bg-banner13 bg-cover bg-center relative w-full h-[250px]">
+								<div class="back px-5 w-full h-[70px] bottom-0 absolute">
+									<div class="text-[22px] font-[600] text-white">Cardio Training</div>
+									<div><i class="text-[#f15d44] bi bi-person-fill"></i><span class="pl-2 text-[14px] text-white">Benjamin</span></div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+ <!--trainer-->
+ <section class="bg-[#F5F5F5]" id="trainers">
+ 	<div class="container mx-auto py-[50px] md:py-[100px] ">
+ 			<div class="text-[#111111] font-[600] text-center text-2xl md:text-[40px]">
+		EXPERT TRAINERS
+		</div>
+		<div class="flex justify-between flex-wrap items-center gap-[20px] md:gap-[40px] lg:gap-[30px] pt-[25px] md:pt-[50px]">
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)]">
+				<div class="bg-white relative w-full group overflow-hidden p-5">
+					<div class=" bg-banner22 bg-contain bg-no-repeat bg-center w-full h-[250px] md:h-[400px]">
+						<div class="absolute left-0 bottom-0 bg-white w-full p-3 text-center flex-col flex justify-center items-center">
+							<div class="text-[#111111] font-[600] text-[20px]">Patrick Cortez</div>
+							<div class="text-[#f15d44]">Leader</div>
+						
+						</div>
+					</div>
+						<ul class="flex flex-col top-[-150px]  group-hover:top-0 p-3 xl:p-5 bg-[#F5F5F5] left-[20px] justify-center items-center gap-3  duration-500   absolute">
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="facebook"><i class="bi bi-facebook"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="instagram"><i class="bi bi-instagram"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="twitter"><i class="bi bi-twitter"></i></a></li>
+							</ul>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)]">
+				<div class="bg-white relative w-full group overflow-hidden p-5">
+					<div class="e bg-banner21 bg-contain bg-no-repeat bg-center w-full h-[250px]  md:h-[400px]">
+						<div class="absolute bottom-0 left-0 bg-white w-full p-3 text-center flex-col flex justify-center items-center">
+							<div class="text-[#111111] font-[600] text-[20px]">Gregory Powers</div>
+							<div class="text-[#f15d44]">Gym coach</div>
+						
+						</div>
+					</div>
+						<ul class="flex flex-col top-[-150px]  group-hover:top-0 p-3 xl:p-5 bg-[#F5F5F5] left-[20px] justify-center items-center gap-3  duration-500   absolute">
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="facebook"><i class="bi bi-facebook"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="instagram"><i class="bi bi-instagram"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="twitter"><i class="bi bi-twitter"></i></a></li>
+							</ul>
+				</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)] ">
+				<div class="bg-white relative w-full group overflow-hidden p-5">
+					<div class="e bg-banner19 bg-contain bg-no-repeat bg-center w-full h-[250px] md:h-[400px]">
+						<div class="absolute bottom-0 left-0 bg-white w-full p-3 text-center flex-col flex justify-center items-center">
+							<div class="text-[#111111] font-[600] text-[20px]">Walter Wagner</div>
+							<div class="text-[#f15d44]">Fitness trainer</div>
+						
+						</div>
+					</div>
+						<ul class="flex flex-col top-[-150px]  group-hover:top-0 p-3 xl:p-5 bg-[#F5F5F5] left-[20px] justify-center items-center gap-3  duration-500   absolute">
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="facebook"><i class="bi bi-facebook"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="instagram"><i class="bi bi-instagram"></i></a></li>
+								<li class="hover:text-[#f15d44] text-xl text-black duration-500"><a href="javascript:;" title="twitter"><i class="bi bi-twitter"></i></a></li>
+							</ul>
+				</div>
+			</div>
+		</div>
+ 	</div>
+ </section>
+ 
+ <!--stories-->
+ <section class="">
+ <div class="container mx-auto py-[50px] md:py-[100px]">
+ 	<div class="text-[#111111] font-[600] text-center text-2xl md:text-[40px]">
+	SUCCESS STORIES
+		</div>
+		<div class="pt-[25px] md:pt-[50px]">
+			<div class="swiper firSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col">
+							<p class="text-center text-[16px] text-[#111111]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br class="hidden md:block">
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br class="hidden md:block">
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <div class="bg-banner17 mt-5 bg-contain bg-center  w-[100px] h-[100px] rounded-full bg-no-repeat border-[2px] border-[#f15d44]">
+                                	
+                                </div>
+                                <div class="text-[#111111] text-[22px] font-[600] pt-2">Jayden</div>
+                                <div class="text-[#f15d44]">Leader</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="flex justify-center items-center w-full flex-col">
+							<p class="text-center text-[16px] text-[#111111]">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br class="hidden md:block">
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud<br class="hidden md:block">
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                                <div class="bg-banner18 mt-5 bg-cover bg-center  w-[100px] h-[100px] rounded-full  border-[2px] border-[#f15d44]">
+                                	
+                                </div>
+                                  <div class="text-[#111111] text-[22px] font-[600] pt-2">Noah</div>
+                                <div class="text-[#f15d44]">CEO</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+ </div>
+ </section>
+ <!--coach-->
+ <section class="bg-banner20 w-full md:h-[300px]  lg:h-[500px] bg-cover bg-center overflow-hidden">
+ <div class="container mx-auto ">
+ 	<div class="flex flex-wrap gap-[20px] md:gap-[30px] justify-between items-center h-[300px] lg:h-[500px] w-full">
+ 		<div class="w-full  lg:w-[calc(50%_-_20px)]">
+ 			<div class="text-2xl md:text-[40px] font-[600] text-white">GET TRAINING TODAY</div>
+ 			<p class="text-[16px] pt-3 md:pt-4 text-white ">Gimply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard.</p>
+ 				<div class="pt-3 md:pt-5">
+				<button type="button" class="w-[150px] p-3 bg-gradient-to-r from-[#eb3c5a]  to-[#f67831]  text-white text-center"><a href="javascript:;" title="btn">Read More</a></button>
+			</div>
+ 		</div>
+ 		<div class="w-full hidden lg:block  md:w-[calc(50%_-_20px)]">
+ 		<div class="bg-banner23 bg-contain bg-no-repeat bg-center w-full h-[500px]"></div>
+ 		</div>
+ 	</div>
+ </div>
+ </section>
+ <!--table-->
+
+ <section class="bg-[#F5F5F5] text-white" id="schedules">
+	<div class="container mx-auto md:py-[100px] py-[50px]  ">
+			<div class="text-[#111111] font-[600] pb-[25px] md:pb-[50px] text-center text-2xl md:text-[40px]">
+		FITNESS SCHEDULES
+		</div>
+		<div class="flex font-[600] flex-wrap md:gap-[60px] text-black gap-[12px] items-center justify-center">
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative before:left-[0%] hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="all">ALL CLASS</a>
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="crossfit">CROSSFIT</a>
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="lungeball">LUNGE BALL</a>
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="ppsr">PPSR</a>
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="walls">WALLS</a>
+			<a href="javascript:;" class="overflow-hidden transition-all ease-in-out duration-500 relative hover:before:left-[0%] before:content-[''] before:block before:w-[100%] before:h-[4px]  before:bg-[#F15D44] before:bottom-0 before:absolute before:left-[-100%] before:duration-500 pb-[10px] data-fill" data-filter="candy">CANDY</a>
+		</div>
+		<div class="overflow-hidden overflow-x-auto">
+			<table class="w-full mt-[30px] bg-[#1E1E1E] border-[1px] border-solid border-white ">
+			  <thead>
+			    <tr class="border-[1px] border-solid border-white">
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]"></th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">MONDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">TUESDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">WEDNESDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">THURSDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">FRIDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">SATURDAY</th>
+			      <th class="text-[16px] font-[500] py-[25px] px-[5px]">SUNDAY</th>
+			    </tr>
+			  </thead>
+				 <tbody>
+				    <tr>
+				     <th class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]">10.00</th>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="crossfit">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 14.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Crossfit lv1</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="crossfit">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Crossfit lv1</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]" ></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="lungeball">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 13.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Lunge Ball Bur</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="lungeball">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 13.30
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Lunge Ball Bur</div>
+				     </td>
+				    </tr>
+				    <tr>
+				     <th class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]">14.00</th>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+					 <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="lungeball">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Lunge Ball Bur</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="crossfit">
+				     <div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Crossfit lv1</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="walls">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Walls to Knees</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				    </tr>
+				    <tr>
+				      <th class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]">16.00</th>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="lungeball">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Lunge Ball Bur</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="candy">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">candy</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="candy">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">candy</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="ppsr">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">ppsr</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="murph">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">murph</div>
+				     </td>
+				    </tr>
+				    <tr>
+				      <th class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]">18.00</th>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="walls">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Walls to Knees</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="ppsr">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">ppsr</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="chelsea">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Chelsea</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="annie">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">annie</div>
+				     </td>
+				      <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				    </tr>
+				    <tr>
+				     <th class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]">20.00</th>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="lungeball">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Lunge Ball Bur</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="walls">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Walls to Knees</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="walls">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Walls to Knees</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="crossfit">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Crossfit Lv2</div>
+				     </td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px]"></td>
+				     <td class="text-center border-r-[1px] border-solid px-[10px] py-[28px] border-white  border-b-[1px] w-[162px] data-card" data-items="crossfit">
+				     	<div class="text-[16px] font-[400]">
+				     		10.00 - 15.00
+				     	</div>
+				     	<div class="text-[16px] font-[600] uppercase text-[#F15D44]">Crossfit Lv2</div>
+				     </td>
+				    </tr>
+				  </tbody>
+		</table>
+		</div>
+		
+		
+	</div>
+</section>
+
+ 
+ <!--contact us-->
+ <section id="contact">
+ 	<div class="container mx-auto py-[50px] md:py-[100px]">
+ 		<div class="text-[#111111] uppercase font-[600] text-center text-2xl md:text-[40px]">
+      Contact Us
+		</div>
+		<div class="flex justify-between flex-wrap items-start w-full gap-[20px] md:gap-[30px] pt-[25px] md:pt-[50px]">
+			<div class="w-full flex justify-center items-start flex-col lg:w-[calc(40%_-_20px)]">
+				<div class="flex justify-center items-center gap-[20px]">
+					<div class="flex justify-center items-center md:max-w-[74px] min-w-[50px] min-h-[50px] md:max-h-[74px] rounded-full border-[2px]"><i class="text-xl md:text-3xl bi bi-geo-alt text-[#f15d44]"></i></div>
+					<div>
+						<div class="text-[18px]">Our Location</div>
+						<div class="text-sm md:text-[18px] text-[#111111]">371 7th Ave, New York, NY 10001</div>
+					</div>
+				</div>
+				<div class="flex justify-center items-center gap-[20px] pt-3 md:pt-5">
+					<div class="flex justify-center items-center min-w-[50px] min-h-[50px] md:max-w-[74px] md:max-h-[74px] rounded-full border-[2px]"><i class="bi bi-telephone text-[#f15d44] text-xl md:text-3xl"></i></div>
+					<div>
+						<div class="text-[18px]">Phone:</div>
+						<div class="text-sm md:text-[18px] text-[#111111]">+91 9373829008</div>
+					</div>
+				</div>
+				<div class="flex justify-center items-center gap-[20px] pt-3 md:pt-5">
+					<div class="flex justify-center items-center md:max-w-[74px] min-w-[50px] min-h-[50px] md:max-h-[74px] rounded-full border-[2px]"><i class="bi bi-envelope text-[#f15d44] text-xl md:text-3xl"></i></div>
+					<div>
+						<div class="text-[18px]">Mail</div>
+						<div class="text-sm md:text-[18px] text-[#111111]">fitness@gmail.com</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-full lg:w-[calc(60%_-_20px)]">
+				<form action="form" class="w-full">
+					<div class="w-full flex justify-between flex-wrap gap-[10px] md:gap-[20px] items-center">
+						<div class="w-full md:w-[calc(50%_-_10px)]">
+							<input type="text" class="w-full p-3 focus:outline-none border-[1px] " placeholder="Your Name">
+						</div>
+						<div class="w-full md:w-[calc(50%_-_10px)]">
+							<input type="text" class="w-full p-3 focus:outline-none border-[1px] " placeholder="Your Email">
+						</div>
+					</div>
+					<div class="w-full pt-3 md:pt-5">
+						<textarea  rows="6" cols="50" class="resize-none w-full p-3 focus:outline-none border-[1px] " placeholder="Your Message"></textarea>
+					</div>
+					<div class="pt-1 md:pt-5">
+				<button type="button" class="w-[150px] p-3 bg-gradient-to-r from-[#eb3c5a]  to-[#f67831]  text-white text-center"><a href="javascript:;" title="btn">Send Message</a></button>
+			</div>
+				</form>
+			</div>
+		</div>
+ 	</div>
+ </section>
+
+
+<!-- footer section -->
+<footer class="bg-[#111111]">
+	<div class="container mx-auto pt-[50px] pb-[50px]">
+		<div class="flex justify-between items-start w-full gap-[20px] md:gap-[30px] flex-wrap">
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)]">
+				<div class="text-[14px] text-[#f15d44]">Phone</div>
+			<div class="text-[16px] pt-2 md:pt-5 text-white ">+91 9373829008</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)]">
+				<div class="text-[14px] text-[#f15d44]">Address</div>
+			<div class="text-[16px] pt-2 md:pt-5 text-white ">371 7th Ave, New York, NY 10001</div>
+			</div>
+			<div class="w-full md:w-[calc(50%_-_20px)] lg:w-[calc(33.33%_-_20px)]">
+				<div class="text-[14px] text-[#f15d44]">Email</div>
+			<div class="text-[16px] pt-2 md:pt-5 text-white ">fitness@gmail.com</div>
+			</div>
+		</div>
+		<div class="pt-5 md:pt-10">
+			<div class=" md:bg-banner1 bg-cover bg-top  w-full h-full lg:h-[140px]">
+				<div class="flex justify-between flex-wrap gap-[10px] md:gap-[30px] items-center w-full h-full lg:h-[140px]  lg:py-0 md:py-[20px] md:px-[50px]">
+					<div class="w-full lg:w-[calc(60%_-_20px)]">
+						<div class="text-[15px] md:text-[24px] font-[600] md:text-center lg:text-left text-white">SUBSCRIBE TO OUR MAILING LIST</div>
+						<p class="md:block hidden text-white text-sm md:text-[16px] md:text-center lg:text-left pt-1 md:pt-3">Sign up to receive the latest information</p>
+					</div>
+					<div class="w-full flex justify-center items-center lg:w-[calc(40%_-_20px)]">
+						<div class="w-[80%]">
+							<input type="text" class="bg-white h-[50px] focus:outline-none p-3 w-full" placeholder="Enter Your Email">
+						</div>
+						<div class="w-[20%] flex justify-center items-center">
+									
+				<button type="button" class="w-full p-3 h-[50px] bg-gradient-to-r from-[#eb3c5a]  to-[#f67831]  text-white text-center text-xl"><a href="javascript:;" title="btn"><i class=" bi bi-send-fill"></i></a></button>
+			
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		       <div class="pt-10 ">
+            <div class="text-sm font-normal text-white text-center">Copyrights
+                © <span id="currentYear"></span>
+                <em class="  font-normal text-white"> <span class="text-white font-normal">All Rights Reserved </span>
+                
+                </em><br>
+                Designed by <a href="https://www.aboss.in/" target="blank"  title="aboss"
+                    class="text-[#f67831] ">ABOSS</a>
+            </div>
+                <div class="fixed bottom-4 right-4 z-[10]">
+            <button id="scrollToTopButton" class="bg-[#f67831] text-white rounded-full w-12 h-12 flex items-center justify-center transition-opacity duration-300 opacity-0 hover:opacity-100 focus:outline-none">
+             <i class="bi bi-arrow-up w-6 h-6"></i>
+            </button>
+          </div>
+        </div>
+	</div>
+</footer>
+ 
+<script src="./assets/js/script.js"></script>
+<script src="./assets/swiper/swiper.js"></script>
+<script src="./assets/tailwindconfig/tailwindconfig.js"></script>
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centerSlide:true,
+       spaceBetween: 25,
+        speed:1000,
+      loop: true,
+      grabCursor: true,
+     
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+         autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+     
+      breakpoints:{
+      	0:{
+      		slidesPerView:1,
+      	},
+      	520:{
+      		slidesPerView:2,
+      	},
+      	950:{
+      		slidesPerView:3,
+      	},
+      	1030:{
+      		slidesPerView:3,
+      	},
+      },
+    });
+  </script>
+
+ <script>
+    var swiper = new Swiper(".firSwiper", {
+      slidesPerView: 1,
+      centerSlide:true,
+       spaceBetween: 25,
+     
+        speed:1000,
+      loop: true,
+      grabCursor: true,
+     
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+         autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      
+      breakpoints:{
+      	0:{
+      		slidesPerView:1,
+      	},
+      	520:{
+      		slidesPerView:1,
+      	},
+      	950:{
+      		slidesPerView:1,
+      	},
+      	1030:{
+      		slidesPerView:1,
+      	},
+      },
+    });
+  </script>
+
+  <script>
+	       //scroll button js
+        const scrollToTopButton = document.getElementById('scrollToTopButton');
+
+document.addEventListener('scroll', function() {
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition > 0) {
+    scrollToTopButton.style.opacity = '1';
+    scrollToTopButton.classList.add('scroll-to-top-active');
+  } else {
+    scrollToTopButton.style.opacity = '0';
+    scrollToTopButton.classList.remove('scroll-to-top-active');
+  }
+});
+
+scrollToTopButton.addEventListener('click', function() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+</script>
+
+<!-- TABLE -->
+<script>
+
+	
+	const datafill = document.querySelectorAll('.data-fill');
+	const datacard = document.querySelectorAll('.data-card');
+	
+    datafill.forEach((button) => {
+        button.addEventListener('click', (e) => {
+
+            e.preventDefault();
+            setActiveBtn(e);
+            const btnfilter = e.target.dataset.filter;
+            datacard.forEach((box => {
+                if (btnfilter == 'all') {
+                    box.style.opacity = "1";
+                } else {
+
+                    const boxfilter = box.dataset.items;
+                    if (btnfilter == boxfilter) {
+                        box.style.opacity = "1";
+                    } else {
+                        box.style.opacity = "0";
+                    }
+                }
+            }));
+
+
+        });
+        
+    
+    });
+    
+    function setActiveBtn(e)
+    {
+    	datafill.forEach((button) => {
+            button.classList.remove('before:left-[0%]');
+        });
+        e.target.classList.add('before:left-[0%]');
+    }
+	
+</script>
+
+
